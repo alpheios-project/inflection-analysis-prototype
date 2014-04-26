@@ -1,0 +1,112 @@
+body {
+    background-color: #ffffff;
+    margin: 1em;
+}
+
+.links {        
+    font-size: smaller;
+    clear: both;        
+}
+
+.links select {
+   font-size: smaller;
+}
+
+.caption {
+    font-weight: bold;
+}
+
+.doclink {
+    float: left;    
+    margin-right: 1em;
+    margin-bottom: 2em;
+}
+
+.row {
+    clear: both;
+}
+.column {
+    float: left;
+}
+
+.infl-att {
+    float: left;
+    padding-right: .25em;
+}
+
+.header1 {
+    font-weight: bold;
+}
+
+.header2 {
+    font-style: italic;    
+}
+
+.header {
+    margin: 0;
+}
+
+.row_group {
+    border-top: 1px solid gray;
+    padding-bottom: 1em;
+}
+
+.toggle{
+    background: transparent url(arrow-dn-sharp.gif) no-repeat  0 6px;    
+    color: blue;    
+    cursor: pointer;
+    padding-left: 12px;
+}
+
+.collapsed .toggle {
+    background: transparent url(arrow-rit-sharp.gif) no-repeat 0 6px;    
+}
+
+.collapsed .toggle {
+    background: transparent url(arrow-rit-sharp.gif) no-repeat 0 6px;    
+}
+
+.collapsed.toggle-text  {
+    display: none;
+}
+
+.collapsed .urn {
+    display: none;
+}
+
+.infl-ending, .infl-ending-set {
+    width: 15%;
+}
+
+.forms-all {
+    width: 85%;
+    margin-left: 15%;
+     padding-top: .5em;
+}
+
+.infl-att-set, .infl-urn-set, .infl-ending, .ending-urn-set {
+    width: 40%;
+}
+
+.infl-set-count,.infl-ending-count {
+    width: 20%
+}
+
+.infl-ending-set-count, .ending-count {
+    float: right;
+}
+
+.truncation {
+    font-size: smaller;
+    color: red;
+    padding-left: 2em;
+}
+
+.emph {
+    font-style: italic;
+}
+
+.alpheios-hint {
+    clear: both;
+    text-align: center;
+}
